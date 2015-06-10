@@ -366,6 +366,16 @@
       "prefix_header_contents": "#define HAVE_XMPP_SUBSPEC_XEP_0184"
     },
     {
+      "name": "XEP-0191",
+      "source_files": "Extensions/XEP-0191/**/*.{h,m}",
+      "dependencies": {
+        "XMPPFramework/Core": [
+
+        ]
+      },
+      "prefix_header_contents": "#define HAVE_XMPP_SUBSPEC_XEP_0191"
+    },
+    {
       "name": "XEP-0199",
       "source_files": "Extensions/XEP-0199/**/*.{h,m}",
       "dependencies": {
