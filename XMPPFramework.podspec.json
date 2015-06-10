@@ -215,9 +215,6 @@
         ],
         "XMPPFramework/Roster": [
 
-        ],
-        "XMPPFramework/XEP-0153": [
-
         ]
       },
       "prefix_header_contents": "#define HAVE_XMPP_SUBSPEC_XEP_0054",
