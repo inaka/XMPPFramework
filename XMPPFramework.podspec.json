@@ -68,39 +68,19 @@
     },
     {
       "name": "Authentication",
-      "source_files": "Authentication/**/*.{h,m}",
-      "dependencies": {
-        "XMPPFramework/Core": [
-
-        ]
-      }
+      "source_files": "Authentication/**/*.{h,m}"
     },
     {
       "name": "Categories",
-      "source_files": "Categories/**/*.{h,m}",
-      "dependencies": {
-        "XMPPFramework/Core": [
-
-        ]
-      }
+      "source_files": "Categories/**/*.{h,m}"
     },
     {
       "name": "Utilities",
-      "source_files": "Utilities/**/*.{h,m}",
-      "dependencies": {
-        "XMPPFramework/Core": [
-
-        ]
-      }
+      "source_files": "Utilities/**/*.{h,m}"
     },
     {
       "name": "KissXML",
-      "source_files": "Vendor/KissXML/**/*.{h,m}",
-      "dependencies": {
-        "XMPPFramework/Core": [
-
-        ]
-      }
+      "source_files": "Vendor/KissXML/**/*.{h,m}"
     },
     {
       "name": "BandwidthMonitor",
