@@ -30,7 +30,8 @@
       "source_files": [
         "XMPPFramework.h",
         "Core/**/*.{h,m}",
-        "Vendor/libidn/*.h"
+        "Vendor/libidn/*.h",
+        "Vendor/Fling/*.h"
       ],
       "vendored_libraries": "Vendor/libidn/libidn.a",
       "libraries": [
