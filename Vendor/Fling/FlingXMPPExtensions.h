@@ -14,15 +14,15 @@
 #endif
 
 #ifdef HAVE_XMPP_SUBSPEC_XEP_0054
-#import “XMPPvCardCoreDataStorage.h"
+#import "XMPPvCardCoreDataStorage.h"
 #endif
 
 #ifdef HAVE_XMPP_SUBSPEC_XEP_0115
-#import “XMPPCapabilitiesCoreDataStorage.h”
+#import "XMPPCapabilitiesCoreDataStorage.h"
 #endif
 
 #ifdef HAVE_XMPP_SUBSPEC_XEP_0045
-#import “XMPPRoomCoreDataStorage.h"
+#import "XMPPRoomCoreDataStorage.h"
 #endif
 
 #endif
