@@ -205,6 +205,7 @@
 		28C286E00D94DF7D0034E888 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = RootViewController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
 		28F335F01007B36200424DE2 /* RootViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RootViewController.xib; sourceTree = "<group>"; };
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3BE8067D1BA0A1A9009F72A6 /* FlingXMPPExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlingXMPPExtensions.h; sourceTree = "<group>"; };
 		631C7B7418E0E7C70015DBDF /* XMPPSCRAMSHA1Authentication.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMPPSCRAMSHA1Authentication.h; sourceTree = "<group>"; };
 		631C7B7518E0E7C70015DBDF /* XMPPSCRAMSHA1Authentication.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMPPSCRAMSHA1Authentication.m; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* iPhoneXMPP-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "iPhoneXMPP-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
@@ -614,6 +615,15 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		3BE8067C1BA0A1A9009F72A6 /* Fling */ = {
+			isa = PBXGroup;
+			children = (
+				3BE8067D1BA0A1A9009F72A6 /* FlingXMPPExtensions.h */,
+			);
+			name = Fling;
+			path = ../../Vendor/Fling;
+			sourceTree = "<group>";
+		};
 		631C7B7318E0E7C70015DBDF /* SCRAM-SHA-1 */ = {
 			isa = PBXGroup;
 			children = (
@@ -870,6 +880,7 @@
 		DC84BBA0124409CE0055A459 /* Vendor */ = {
 			isa = PBXGroup;
 			children = (
+				3BE8067C1BA0A1A9009F72A6 /* Fling */,
 				DCC0BED51301CDE000EC45D2 /* Logging */,
 				DC1F97E31152CA3500138A8F /* TCP */,
 				DC84BBA1124409D60055A459 /* IDN */,
