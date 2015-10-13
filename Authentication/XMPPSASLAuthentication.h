@@ -58,6 +58,7 @@ typedef NS_ENUM(NSInteger, XMPPHandleAuthResponse) {
 **/
 - (id)initWithStream:(XMPPStream *)stream password:(NSString *)password;
 
+
 /**
  * Attempts to start the authentication process.
  * The auth mechanism should send whatever stanzas are needed to begin the authentication process.
@@ -84,6 +85,13 @@ typedef NS_ENUM(NSInteger, XMPPHandleAuthResponse) {
 - (XMPPHandleAuthResponse)handleAuth:(NSXMLElement *)auth;
 
 @optional
+
+/**
+ * Use this init method if the username used for authentication does not match the user part of the JID.
+ * If username is nil, the user part of the JID will be used.
+ * The standard init method uses this init method, passing nil for the username.
+ **/
+- (id)initWithStream:(XMPPStream *)stream username:(NSString *)username password:(NSString *)password;
 
 /**
  * Optionally implement this method to override the default behavior.

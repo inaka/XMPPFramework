@@ -1,8 +1,8 @@
 #import <Foundation/Foundation.h>
 #import "XMPPSASLAuthentication.h"
 #import "XMPPCustomBinding.h"
-#import "GCDAsyncSocket.h"
 #import "GCDMulticastDelegate.h"
+#import "CocoaAsyncSocket/GCDAsyncSocket.h"
 
 #if TARGET_OS_IPHONE
   #import "DDXML.h"
@@ -1049,7 +1049,7 @@ extern const NSTimeInterval XMPPStreamTimeoutNone;
 - (void)xmppStreamDidSendClosingStreamStanza:(XMPPStream *)sender;
 
 /**
- * This methods is called if the XMPP stream's connect times out.
+ * This method is called if the XMPP stream's connect times out.
 **/
 - (void)xmppStreamConnectDidTimeout:(XMPPStream *)sender;
 
